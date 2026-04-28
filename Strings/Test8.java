@@ -15,9 +15,9 @@ public class Test8 {
   public static void main(String[] args) {
     String s = "madam";
     if(isPalindrome(s)){
-      System.out.println("Palindrome String");
+      System.out.println("Palindrome String: "+s);
     }else {
-      System.out.println("Not Palindrome String");}
+      System.out.println("Not Palindrome String "+s);}
 
     
   }
